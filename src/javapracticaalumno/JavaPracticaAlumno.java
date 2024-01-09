@@ -11,11 +11,12 @@ import java.util.Scanner;
  * @author sulbaranjc
  */
 public class JavaPracticaAlumno {
+    public static Scanner scanner = new Scanner(System.in);
 
     /**
      * @param args the command line arguments
      */
-    public static Scanner scanner = new Scanner(System.in);
+
     public static void main(String[] args) {
         // TODO code application logic here
         boolean salir = false;
