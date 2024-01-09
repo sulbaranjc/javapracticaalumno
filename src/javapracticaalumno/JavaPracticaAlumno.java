@@ -1,21 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package javapracticaalumno;
 
 import java.util.Scanner;
 
 /**
- *
  * @author sulbaranjc
  */
 public class JavaPracticaAlumno {
+
     public static Scanner scanner = new Scanner(System.in);
 
-
+    /**
+     * Este es el método principal de la aplicación.
+     * @param args los argumentos de línea de comando
+     */
     public static void main(String[] args) {
-        // TODO code application logic here
         boolean salir = false;
         while (!salir) {
             System.out.println("\n===== MENÚ PRINCIPAL =====");
