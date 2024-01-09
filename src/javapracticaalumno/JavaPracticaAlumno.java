@@ -12,9 +12,6 @@ import java.util.Scanner;
  */
 public class JavaPracticaAlumno {
 
-    /**
-     * @param args the command line arguments
-     */
     public static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         // TODO code application logic here
